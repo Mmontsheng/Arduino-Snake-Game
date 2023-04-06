@@ -12,6 +12,7 @@ private:
 public:
   using Point::Point;
   void update();
+  void eat();
   void setLength(int length);
   void setDirection(int dx, int dy);
 };
